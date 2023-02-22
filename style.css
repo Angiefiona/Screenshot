@@ -2,12 +2,12 @@
     
     
 }
-.container image{
-    float: left;
-    width: 0.5%;
- margin-top: -13%;
-    margin-left: 5%;
+img{
+    float: right;
+    width: 350px;
+ margin-top: 13%;
     position: absolute;
+    margin-left: 50%;
 
 }
 nav ul li{
@@ -23,12 +23,13 @@ nav ul{
     list-style: none;
     width: 70%;
     text-align: right;
+    font-size: large;
     
 
 }
 nav ul li a{
     color:black;
-    text-decoration: none;
+    text-decoration: purple;
     width: 80%;
     display: flex;
     align-items: center;
