@@ -4,50 +4,84 @@
 }
 img{
     float: right;
-    width: 350px;
- margin-top: 13%;
+    width: 300px;
+    margin-top: 13%;
     position: absolute;
     margin-left: 50%;
+    border-radius: 30px;
+    border-color: darkgreen;
+    border-width: thick;
+    margin-top: -0.5%;
+    
+
+
+}
+nav{
+    padding: 40px 10%;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 30%;
+    margin-top: -10%
 
 }
 nav ul li{
     list-style-type: none;
-    display: flex;
+    display: inline-block;
+    padding: 10px 10px;
+    
 }
-nav ul{
-    display: flex;
-    padding: 15px;
-    float: right;
-    justify-content: space-between;
-    padding-inline-start: 40%;
-    list-style: none;
-    width: 70%;
-    text-align: right;
+nav ul li a{
+    color: springgreen;
+    text-decoration: none;
+    font-weight: bold;
     font-size: large;
+    font-size: 20px;
+    align-items: right;
+    
+}
+h1{
+    color: darkblue;
+    font: size 450px;;
+    font-weight: bold;
+    margin-top: 3%;
+    
+}
+button{
+    border: none;
+    border-radius: 60px;
+    padding: 28px 45px;
+    color: whitesmoke;
+    background-color: crimson;
+    font-weight: bold;
+    justify-content: space-between;
     
 
 }
-nav ul li a{
-    color:black;
-    text-decoration: purple;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 0;
-  
+button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+nav ul li a:hover{
+    color: crimson;
+    transition: .4s;
 }
 .content{
-    padding: left;
+
+}
+h2{
+    color: purple;
+    font-weight: bold;
+    font-size: 60px;
+}
+p{
+   font-style: oblique; 
+   font-size: large;
+}
+h3{
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: -40px;
 }
 button{
-    padding: 10px;
+    
 }
-#start{
-    color: chartreuse;
-}
-heading{
-    color: darkgreen;
-}
-
-
